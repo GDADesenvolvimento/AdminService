@@ -36,8 +36,8 @@
                 @foreach($services as $service)
                     <tr>
                         <td><a href="{{ route('service.edit', ['id' => $service->id]) }}">{{$service->nome}}</a></td>
-                        <td>{{ dateFormat($domain->created_at) }}</td>
-                        <td>{{ dateFormat($domain->updated_at) }}</td>
+                        <td>{{ dateFormat($service->created_at) }}</td>
+                        <td>{{ dateFormat($service->updated_at) }}</td>
                     </tr>
                 @endforeach
                 </tbody>

@@ -47,9 +47,7 @@
                 <br>
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="input-group">
-                            <textarea name="descricao" class="textarea" placeholder="Descrição do serviço" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{ old('descricao') }}</textarea>
-                        </div>
+                        <textarea name="descricao" class="textarea" placeholder="Descrição do serviço" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{ old('descricao') }}</textarea>
                     </div>
                 </div>
             </div><!-- /.box-body -->
