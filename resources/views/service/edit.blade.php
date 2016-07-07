@@ -23,7 +23,7 @@
             </ul>
         </div>
     @endif
-    <form action="{{ route('service.edit') }}" method="POST">
+    <form action="{{ route('service.update') }}" method="POST">
         <input type="hidden" name="_method" value="PUT">
         <input type="hidden" name="id" value="{{ $service->id }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">

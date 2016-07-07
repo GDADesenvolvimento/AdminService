@@ -53,7 +53,6 @@
             </div><!-- /.box-body -->
             <div class="box-footer">
                 <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-                <a id="btn-whois" class="btn btn-primary pull-right">Consultar Whois</a>
             </div>
         </div><!-- /.box -->
     </form>
