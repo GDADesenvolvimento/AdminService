@@ -1,0 +1,19 @@
+{
+  "name": "gdadesenv/adminservice",
+  "description": "Pacote Laravel para adiministrar os 'Serviços' dentro do GDA Admin",
+  "authors": [
+    {
+      "name": "Diogo Bemfica",
+      "email": "diogo.fragabemfica@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GdaDesenv\\AdminService\\":"src/"
+    }
+  }
+}
