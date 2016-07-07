@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateDomainsTable extends Migration
+class CreateServicesTable extends Migration
 {
     /**
      * Run the migrations.
